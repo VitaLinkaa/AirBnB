@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+          user-scalable=no,
+          initial-scale=1.0,
+          maximum-scale=1.0,
+          minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AirBnB</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="#">
+          <img src="./images/logo_header.png" alt="logo">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Become a host</a></li>
+          <li><a href="#">Trips</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">
+              <img src="./images/Ellipse_header.png" alt="Elipse_header">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__img"></div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__inner">
+        <div class="section__left">
+          <div class="section__main-heading">
+            <a href="#">
+              Quiet apartment</a>
+          </div>
+          <div class="section__subheading">Entire apartment</div>
+          <div class="section__param">
+            <div class="section__param-guests">4 guests</div>
+            <div class="section__param-bed">1 bed</div>
+            <div class="section__param-bed">1 bath</div>
+          </div>
+          <div class="section__big-text">City Apartment is newly renovated in the heart of Budapest, right in
+            the city center. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </div>
+          <div class="section__contact-host">
+            <a href="#">Contact host</a>
+          </div>
+          <div class="section__amenities"><a href="#">Amenities</a></div>
+          <div class="section__amenities-param">
+            <div class="section__amenities-param-elevator">Elevator</div>
+            <div class="section__amenities-param-heir">Hair dryer</div>
+            <div class="section__amenities-param-washer">Washer</div>
+            <div class="section__amenities-param-kitchen">Kitchen</div>
+          </div>
+          <div class="section__all-amenities">
+            <a href="#">Show All Amenities</a>
+          </div>
+          <div class="section__reviews">
+            <a href="#">Reviews</a>
+          </div>
+          <div class="section__reviews-block">
+            <div class="section__reviews-first">
+              <div class="section__reviews-first-top">
+                <div class="section__reviews-first-top-flex">
+                  <a href="#">
+                    <img src="./images/john.png" alt="avatar">
+                  </a>
+                  <div class="name-date">
+                    <div class="name">John</div>
+                    <div class="date">September 2016</div>
+                  </div>
+                </div>
+              </div>
+              <div class="section__reviews-first-bottom">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            </div>
+            <div class="section__reviews-second">
+              <div class="section__reviews-second-top">
+                <div class="section__reviews-second-top-flex">
+                  <a href="#">
+                    <img src="./images/john.png" alt="avatar">
+                  </a>
+                  <div class="name-date">
+                    <div class="name">John</div>
+                    <div class="date">September 2016</div>
+                  </div>
+                </div>
+              </div>
+              <div class="section__reviews-second-bottom">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            </div>
+          </div>
+          <div class="section__hosted">
+            <a href="#">Hosted by Jane</a>
+          </div>
+          <div class="section__country">
+            Budapest, Hungary
+          </div>
+          <div class="section__country-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna
+            aliqua.
+          </div>
+
+          <button class="popup section__button" onclick="myFunction()">Contact Host</button>
+          <div class="popupText-parent">
+
+            <div class="popupText" id="myPopup">
+              <span class="text">
+                1400 Defense
+                Pentagon, Washington</span>
+              <span class="number">+1 703-697-1776</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section__right">
+          <form class="section__right-form">
+            <div class="section__right-text">25$ per night</div>
+            <input type="text" placeholder="Date">
+            <input type="text" placeholder="Guests">
+            <button>Book</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__blocks">
+
+        <div class="footer__blocks-left">
+          <div class="footer__blocks-airbnb">
+            <a href="#">
+              Airbnb</a></div>
+          <div class="footer__blocks-about">
+            <a href="#">About</a></div>
+          <div class="footer__blocks-press">
+            <a href="#">Press</a></div>
+          <div class="footer__blocks-help">
+            <a href="#">Help</a></div>
+        </div>
+
+        <div class="footer__blocks-center">
+          <div class="footer__blocks-discover">
+            <a href="#">Discover</a></div>
+          <div class="footer__blocks-travel"><a href="#">Travel credit</a></div>
+          <div class="footer__blocks-business"><a href="#">Business</div>
+          <div class="footer__blocks-guidebooks"><a href="#">Guidebooks</a></div>
+        </div>
+
+        <div class="footer__blocks-right">
+          <div class="footer__blocks-hosting"><a href="#">Hosting</a></div>
+          <div class="footer__blocks-why"><a href="#">Why host</a></div>
+          <div class="footer__blocks-hospitality"><a href="#">Hospitality</a></div>
+          <div class="footer__blocks-community"><a href="#">Community</a></div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script>
+    function myFunction() {
+      let popup = document.querySelector('#myPopup');
+      popup.classList.toggle('show');
+      console.log(popup);
+    }
+  </script>
+</body>
+
+</html>
